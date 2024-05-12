@@ -13,5 +13,6 @@ Hand flush = new([
 
 Console.WriteLine($"Hand: {flush} is {(flush.IsFLush ? "" : "not ")}a flush");
 
+SingletonArrayHolder arrays = SingletonArrayHolder.Instance;
 
-
+Console.WriteLine(arrays.Flushes);

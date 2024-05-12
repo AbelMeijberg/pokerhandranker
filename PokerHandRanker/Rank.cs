@@ -2,19 +2,19 @@
 
 public enum Rank
 {
-    Ace,
-    King,
-    Queen,
-    Jack,
-    Ten,
-    Nine,
-    Eight,
-    Seven,
-    Six,
-    Five,
-    Four,
-    Three,
-    Two
+    Ace = 4096,
+    King = 2048,
+    Queen = 1024,
+    Jack = 512,
+    Ten = 256,
+    Nine = 128,
+    Eight = 64,
+    Seven = 32,
+    Six = 16,
+    Five = 8,
+    Four = 4,
+    Three = 2,
+    Two = 1
 }
 
 public static class RankExtensions

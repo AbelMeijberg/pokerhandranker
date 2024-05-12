@@ -25,6 +25,11 @@
         {
             return _suits.Aggregate((current, next) => current & next) != 0;
         }
+
+        private bool CheckFiveUniqueRanks()
+        {
+            return true;
+        }
         
         public override string ToString()
         {
