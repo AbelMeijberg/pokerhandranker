@@ -1,4 +1,4 @@
-namespace PokerHandRanker;
+namespace PokerHandRanker.Domain;
 
 [Flags]
 public enum Suit

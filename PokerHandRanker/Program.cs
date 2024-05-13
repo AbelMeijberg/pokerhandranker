@@ -1,4 +1,5 @@
-﻿using PokerHandRanker;
+﻿using PokerHandRanker.Domain;
+using PokerHandRanker;
 
 RandomHandFactory factory = new();
 List<Hand> randomHands = factory.GetRandomHands(10);

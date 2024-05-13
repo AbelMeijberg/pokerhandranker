@@ -1,4 +1,4 @@
-﻿using PokerHandRanker;
+﻿using PokerHandRanker.Domain;
 
 namespace PokerHandRanker.Test;
 

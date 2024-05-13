@@ -26,3 +26,5 @@ public class SingletonArrayHolder
         Unique = arrays.Unique;
     }
 }
+
+// json loader met ArrayCollection is generic and algemene stream als parameter

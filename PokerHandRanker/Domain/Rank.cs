@@ -1,4 +1,4 @@
-﻿namespace PokerHandRanker;
+﻿namespace PokerHandRanker.Domain;
 
 public enum Rank
 {
